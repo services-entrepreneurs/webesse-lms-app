@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.todayessentialsweb.lms.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    
+    <name>Webesse Love is magical</name>
+    <description>Dating app for Sharon KN</description>
+    <author email="joseph.elsener@" href="http://www.services-entrepreneurs.ch">WLM Webmaster</author>
+
+    <preference name="phonegap-version" value="6.5.0" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+    
+    <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
+    
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="com.simplec.plugins.localnotification" />
+
+	<icon src="icon-app.png" />
+	
+    <icon src="res/icons/ios/Icon-App-57x57@1x.png" gap:platform="ios" width="57" height="57" />
+    <icon src="res/icons/ios/Icon-App-57x57@2x.png" gap:platform="ios" width="114" height="114" />    
+    <icon src="res/icons/ios/Icon-App-72x72@1x.png" gap:platform="ios" width="72" height="72" />
+    <icon src="res/icons/ios/Icon-App-72x72@2x.png" gap:platform="ios" width="144" height="144" />
+
+    <icon src="res/icons/android/mipmap-ldpi/ic_launcher.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="res/icons/android/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="res/icons/android/mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="res/icons/android/mipmap-xdpi/ic_launcher.png" gap:platform="android" gap:density="xhdpi" />
+	
+    <gap:splash src="splash.png" />
+    
+    <gap:splash src="res/screen/android/lm-logo-300ldpi.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/lm-logo-300mdpi.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/lm-logo-300hdpi.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/lm-logo-300xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    
+    <gap:splash src="res/screen/ios/lm-logo-300.png" gap:platform="ios" width="270" height="287" />
+    <gap:splash src="res/screen/ios/lm-logo-300@2x.png" gap:platform="ios" width="539" height="573" />
+    <gap:splash src="res/screen/ios/lm-logo-300@3x.png" gap:platform="ios" width="808" height="859" />
+
+    <content src="http://lms.webessentialstoday.com/wp/" />
+    <access origin="*" subdomains="true" />
+</widget>
